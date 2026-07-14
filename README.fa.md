@@ -43,5 +43,5 @@ chmod +x cms_scanner.sh
 - **`cms_report_YYYYMMDD_HHMMSS.html`:** داشبورد گرافیکی اختصاصی پروژه. کافیست این فایل را روی کامپیوتر خود دانلود کرده و با دو بار کلیک در هر مرورگری (Chrome, Firefox, Edge, Safari) باز کنید تا آمار خلاصه و جدول تفکیک‌شده را به صورت بصری مشاهده کنید.
 
 ---
-**توسعه‌یافته توسط:** مهدی آهازان
+**توسعه‌یافته توسط:** مهدی آهازان - Mahdi Ahazan
 **مخزن رسمی پروژه در گیت‌هاب:** [https://github.com/MahdiAhazan/CMS-Version-Checker](https://github.com/MahdiAhazan/CMS-Version-Checker)
