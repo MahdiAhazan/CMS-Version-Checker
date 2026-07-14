@@ -326,7 +326,7 @@ EOF
 # Compile and clean JSON data syntax tracking arrays
 echo "{" > "$REPORT_JSON"
 echo "  \"developer\": \"Mahdi Ahazan\"," >> "$REPORT_JSON"
-echo "  \"github_repository\": \"https://github.com/MahdiAhazan/CMS-Version-Checker"," >> "$REPORT_JSON"
+echo "  \"github_repository\": \"https://github.com/MahdiAhazan/CMS-Version-Checker\"," >> "$REPORT_JSON"
 echo "  \"scan_date\": \"$(date)\"," >> "$REPORT_JSON"
 echo "  \"execution_time_seconds\": $EXEC_TIME," >> "$REPORT_JSON"
 echo "  \"statistics\": {" >> "$REPORT_JSON"
