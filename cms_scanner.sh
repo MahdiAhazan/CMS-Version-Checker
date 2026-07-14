@@ -53,7 +53,7 @@ wp_count=0; j_count=0; d_count=0; total_count=0
 echo -n "Initializing engine scan... Discovered: 0"
 
 # ==============================================================================
-# Step 3: Core Discovery Loop & High-Speed Multi-CMS Version Parsing
+# Step 2: Core Discovery Loop & High-Speed Multi-CMS Version Parsing
 # ==============================================================================
 
 # Initialize temporary data streaming buffer for XML mapping
@@ -147,7 +147,7 @@ END_TIME=$(date +%s)
 EXEC_TIME=$((END_TIME - START_TIME))
 
 # ==============================================================================
-# 4. Generate Pre-Compiled Standalone HTML Visual Dashboard (With Retained Counters Scope)
+# 3. Generate Pre-Compiled Standalone HTML Visual Dashboard (With Retained Counters Scope)
 # ==============================================================================
 
 TMP_HTML_ROWS=$(mktemp)
