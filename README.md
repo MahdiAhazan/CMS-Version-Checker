@@ -14,6 +14,13 @@ A high-speed, structural, and control-panel-agnostic shell script engineered for
   2. **Developer-Ready Arrays (`.json`):** Compliant, raw data schema ready to interface with central backend apps or custom cPanel/DirectAdmin UI plugins.
   3. **Standalone UI Dashboards (`.html`):** A pre-compiled, highly responsive web display featuring color-coded status elements. It opens flawlessly in any local browser without running into CORS security blockers.
 
+### 🚀 Quick One-Liner Installation & Auto-Update
+You don't need to manually create any files. Just copy and paste the following one-liner command into your server terminal (as root). It will automatically clean any old version, pull the latest release, and launch the scanner:
+
+```bash
+cd /root/ && rm -f cms_scanner.sh && wget -q https://raw.githubusercontent.com/MahdiAhazan/CMS-Version-Checker/refs/heads/main/cms_scanner.sh && chmod +x cms_scanner.sh && ./cms_scanner.sh
+```
+
 ## 🛠️ Installation & Quick Start
 
 ### 1. Create the Script Workspace
