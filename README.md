@@ -1,5 +1,4 @@
 🇮🇷 **برای مطالعه راهنمای فارسی این پروژه، [اینجا را کلیک کنید](README.fa.md).**
-# CMS-Version-Checker
 # Universal CMS Version Checker (WordPress, Joomla, Drupal)
 
 A high-speed, structural, and control-panel-agnostic shell script engineered for Linux Server Administrators (cPanel, DirectAdmin, Plesk, or standalone servers). It deeply scans the entire global filesystem to uncover active Content Management System deployments and map their core version metrics.
